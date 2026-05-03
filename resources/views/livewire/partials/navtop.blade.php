@@ -41,7 +41,7 @@ new class extends Component {
     <nav class="">
         @auth
             <div x-data="{active: false}" class="navbar navbar-expand-lg sub-menu-bar" id="navbarOne">
-                <ul class="navbar-nav ms-auto">
+                <!-- <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="text-decoration-none active" href="/">HOME</a>
                     </li>
@@ -57,10 +57,12 @@ new class extends Component {
                     <li class="nav-item">
                         <a class="text-decoration-none"  href="/contact">CONTACT</a>
                     </li>
-                </ul>
+                </ul> -->
+
+               
+
                 <span x-on:click="$dispatch('logout')" class="cursor-pointer uppercase danger-buttons">
-                    <span class="text-xl main-btn danger-three">Logout</span>
-                                
+                    <span class="text-xl main-btn danger-three">Logout</span>                
                 </span>
             </div>
 

@@ -120,7 +120,7 @@ new class extends Component
    
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-lg-12">
                 <div class="signin-three">

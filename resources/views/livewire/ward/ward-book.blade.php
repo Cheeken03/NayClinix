@@ -31,7 +31,7 @@ new class extends Component {
 }; ?>
 
 
-<div>
+<div class="container-fluid">
     <div class=""
         x-on:ward-added.window="$wire.$refresh(); $el.scrollTop = 0"
         x-on:ward-updated.window="$wire.$refresh(); $el.scrollTop = 0"
@@ -49,9 +49,6 @@ new class extends Component {
    
         <!-- Accordion -->
        
-
-
-
 
 
 

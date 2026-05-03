@@ -38,10 +38,10 @@ new #[Layout('layouts.guest')] class extends Component {
 
 
 
-<section class="mb-50">
+<section class="">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-6">
+            <div class="col-lg-6 pt-20 pb-20">
                 <div class="signin-three">
                     <div class="signin-form form-style-four light-rounded-buttons">
                         <div class="signin-text text-center">
@@ -117,5 +117,6 @@ new #[Layout('layouts.guest')] class extends Component {
             </div>
         </div>
     </div>
+
 </section>
 

@@ -8,25 +8,16 @@
             <div class="tabs">
                 <div class="single-tabs tebs-six">
                     <div class="row g-3">
-                        <div class="d-none d-md-flex col-md-3 col-lg-2">
-                            <div class="nav flex-column nav-pills w-100 gap-2" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <div class="d-none d-md-block col-lg-2 d-flex justify-content-between gap-10">
+                            <div class="nav flex-column nav-pills gap-10 " id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                 <a class="active fs-5 text-decoration-none" id="v-pills-six-one-tab" data-toggle="pill" href="#nurse" role="tab" aria-controls="v-pills-six-one" aria-selected="true"><i class="las la-user-nurse fs-4"></i></i>NURSE</a>
                                 <a id="v-pills-six-two-tab" class="fs-5 text-decoration-none"  data-toggle="pill" href="#group" role="tab" aria-controls="v-pills-six-two" aria-selected="false"><i class="las la-users fs-4"></i>GROUP</a>
                                 <a id="v-pills-six-three-tab" class="fs-5 text-decoration-none"  data-toggle="pill" href="#ward" role="tab" aria-controls="v-pills-six-three" aria-selected="false"><i class="las la-shield-alt fs-4"></i>WARD</a>
                                 <a id="v-pills-six-four-tab" class="fs-5 text-decoration-none"  data-toggle="pill" href="#profile" role="tab" aria-controls="v-pills-six-four" aria-selected="false"><i class="las la-user-alt fs-4"></i>PROFILE</a>
                             </div>
                         </div>
-                        <div class="col-12 d-md-none mb-3">
-                            <div class="nav nav-pills d-flex justify-content-between">
-                                <a class="active flex-fill text-center" data-bs-toggle="pill" href="#nurse">Nurse</a>
-                                <a class="flex-fill text-center" data-bs-toggle="pill" href="#group">Group</a>
-                                <a class="flex-fill text-center" data-bs-toggle="pill" href="#ward">Ward</a>
-                                <a class="flex-fill text-center" data-bs-toggle="pill" href="#profile">Profile</a>
-                            </div>
-                        </div>
 
-
-                        <div class="tab-content col-12 col-md-9 col-lg-10" id="myTabContent">
+                        <div class="tab-content col-lg-10" id="myTabContent">
                             <div class="tab-pane fade show active" id="nurse" role="tabpanel" aria-labelledby="v-pills-six-one-tab">
                                 <div class="tabs">
                                     <div class="single-tabs tebs-four">
@@ -211,7 +202,7 @@
 
 
 
-  <!-- <x-footer></x-footer> -->
+  <x-footer></x-footer>
 
 
 @endsection

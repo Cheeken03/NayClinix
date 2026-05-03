@@ -38,7 +38,7 @@ new class extends Component {
     }
 }; ?>
 
-<div>
+<div class="container-fluid">
     <div class=""
         x-on:nurse-added.window="$wire.$refresh(); $el.scrollTop = 0"
         x-on:nurse-updated.window="$wire.$refresh(); $el.scrollTop = 0"

@@ -54,8 +54,6 @@ new class extends Component {
 
 
 
-
-
         <div class="flex row">
         
             @forelse (Auth::user()->groups()->latest()->paginate(4) as $group)
